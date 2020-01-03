@@ -1,0 +1,76 @@
+# Ignore test files
+tests/files
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+initdb/mysql/*
+initdb/postgres/*
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*,cover
+.hypothesis/
+
+# Django stuff:
+*.log
+local_settings.py
+
+# dotenv
+.env
+
+# virtualenv
+venv/
+ENV/
+
+# MacOS
+.DS_Store
+
+# DB
+*.sqlite3
+*.sqlite
+
+# vagrant
+.vagrant/
+
+.env
+.etc
+.notebooks
+.jupyter
+
+diff
+
+# Doc:
+docs/index.html
+**/docs/*.html
